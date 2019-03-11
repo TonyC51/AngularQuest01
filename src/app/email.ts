@@ -1,5 +1,5 @@
 export class Email {
 
-email : email;
+email : string;
 
 }
