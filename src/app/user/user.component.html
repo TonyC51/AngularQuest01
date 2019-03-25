@@ -1,0 +1,7 @@
+<p>{{user.firstName}}</p>
+<p>{{user.lastName}}</p>
+<button (click)="showAge = !showAge">Show my age</button>
+<p [hidden]="!showAge">{{user.age}}</p>
+<div>{{user.quote}}</div>
+<img [src]="user.photo"/>
+
